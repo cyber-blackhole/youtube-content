@@ -1,0 +1,17 @@
+Thread
+  smallest unit of processing
+
+multitasking
+multiprocessing - cpu(
+multithreading - programming )
+
+TCB: thread contorl block
+
+
+Daemon threads
+ main thread
+	t1 - kill
+	t2 - kill 
+
+Non Daemon threads
+		

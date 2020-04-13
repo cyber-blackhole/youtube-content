@@ -1,0 +1,26 @@
+
+
+SQL(Sequential/structured Query Languauge)
+	mysql
+	oracle sql
+	mssql
+	postgres
+
+	
+
+1.managing database and tables
+2.data types(int,varchar)
+3.data modification
+	insert , update , delete
+4.querying
+	select
+5.sorting
+	order by
+6.filtering
+	where, and, or, distinct
+	like, limit
+
+
+join
+subquiries
+triggers

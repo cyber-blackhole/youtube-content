@@ -1,0 +1,23 @@
+
+
+about 32bit and 64bit
+
+high level code -------> assembly code
+hexadeciaml ----------> binary(110101010) ------> cpu
+
+
+
+inputfile --------------------------------------------------------> outputfile
+simple.c							simple
+
+C compilation process
+	preprocess - preprocessed file
+
+	compilation
+		preprocessed-file -> assembly
+	assembly
+		assembly -> output ( relocatable)
+		nasm
+	linking		
+		relocatable -> linker -> executable
+		ld

@@ -1,0 +1,55 @@
+
+Process
+
+
+bash - parent process
+	- ps child process
+
+Parent and Child process
+
+ps - Process Status
+	
+Process Creation
+	fork
+	 bash
+		- fork()
+		bash
+	exec
+		sleep 1000
+	wait
+		bash - wait
+	exit
+		exit
+
+Process state
+	ready
+	running
+	waiting
+	terminated
+
+Background jobs
+	&
+	nohup
+	
+Process priority - nice
+
+Killing process - kill
+
+init - parent
+ systemd 
+	bash - kill
+		sleep (orphan)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

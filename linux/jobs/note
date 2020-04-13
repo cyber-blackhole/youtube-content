@@ -1,0 +1,24 @@
+------------------------------
+Job Control
+
+
+	bg - background
+	fg - foreground
+
+
+-------------------------------
+postponing jobs
+
+	at - at time 
+	atq - at queue
+	atrm at queue remove
+	
+	batch
+
+-------------------------------
+periodic jobs(cron jobs)
+
+	crontab
+	
+
+-------------------------------

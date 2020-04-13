@@ -1,0 +1,28 @@
+<?php
+
+$host = "localhost";
+$db = "cyberblackhole";    // Database name
+$user = "cyberblackhole"; // User
+$pass = "password123"; // Password
+
+$mysqli = new mysqli("$host", "$user", "$pass", "$db");
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    exit();
+
+}else{
+	$username=$_GET['username'];
+	$password=$_GET['password'];
+	$sql="select id from login where user='$username' and password='$password'";
+        $res=$mysqli->query($sql);
+	if(!$res){
+		//echo("Error description: " . $mysqli->error);
+		exit();
+	}
+        while($row=$res->fetch_assoc()){
+            echo 'id:  '.$row["id"];
+	    print("\n");
+            }       
+
+}
+?>

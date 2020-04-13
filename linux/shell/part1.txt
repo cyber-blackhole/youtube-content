@@ -1,0 +1,44 @@
+
+Shell
+
+Shell Types
+bash(bourne again shell)
+sh (shell)
+csh (C shell)
+ksh ( korn shell)
+
+Wild Cards
+	* ?
+
+Character Class
+	[ ]
+
+Escaping
+
+Quotations
+	'
+	"
+
+
+
+
+Redirection
+stream -> flow of data
+	input <0
+	ouput 1>
+	error 2>
+
+/dev/null
+/dev/tty
+/dev/pts
+
+Pipes
+
+tee
+
+
+command substitution
+
+shell variables
+
+

@@ -1,0 +1,43 @@
+
+SQL Injection
+
+Inband - commmunication channel
+	Error Based
+	Union Based
+
+Inferential(Blind)
+	Boolean
+	Time based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boolean True, false
+	ascii,substring
+	LHS=RHS
+	
+TRUE
+select where username=cyber' and 108>107
+
+timebased
+
+
+
+
+
+
+
+
+
+
+

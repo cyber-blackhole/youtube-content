@@ -1,0 +1,79 @@
+
+SQL Injection
+
+SETUP
+	DEMO application
+
+	USER - Interface
+		HTML
+
+	SERVER
+		PHP
+		MYSQL
+
+
+
+ HTML <----> PHP <------> SQL database
+			
+index.php -> search.php
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(asdkasd')' at line 1
+
+
+select * from login where user='asdasd' --'
+SQL Injection types
+	ERROR based
+		order by
+		union
+
+
+1. enumerate columns in select query
+	order by 1
+
+2. Reflection
+	database()
+	version()
+
+	table_names in cyberblackhole
+	login
+	sample
+
+	columns in login
+	id,user,password
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Boolean based
+		true or false
+	
+	TIME based
+		sleep
+

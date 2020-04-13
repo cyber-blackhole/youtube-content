@@ -1,0 +1,24 @@
+Customizing the Environment
+
+shell variables
+	local variables
+	environment variables
+
+common environment variables
+	
+alias
+
+history
+	! - 3
+	:p
+	:s
+	history variables
+
+tilde
+
+init scripts
+	.bash_profile
+	.bash_login
+	.profile
+	
+	.bashrc

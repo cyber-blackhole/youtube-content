@@ -1,0 +1,68 @@
+Records:
+name server
+	A 	IPv4 address
+	AAAA	IPv6 address
+	NS	name servers
+	PTR	reverse IP lookup
+	MX	mail server
+	SOA	start of authority
+	TXT	text
+
+forward lookup
+	- domain name - ip address
+
+reverse lookup
+	- ip address - domain name
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+www.google.com
+1. cache and system hosts??
+2. (.)root -> www.google.com IP?
+	goto .com TLD
+3. .com -> www.google.com IP?
+	goto google.com domain
+	google.com xx.xx.xx.xx
+4. google.com -> www.google.com IP?
+	goto ns1.google.com
+	ns1.google.com xx.xx.x.x
+5. ns1.google.com -> www.google.com IP?
+	www.google.com in A
+	xx.xx.xxx.xx
+
+
+
+	
+

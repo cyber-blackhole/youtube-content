@@ -1,0 +1,43 @@
+
+inode( index node)
+	type
+	permissions
+	links
+	uid
+	gid
+	size
+	modification time
+	access time
+	change time
+	pointers to data
+	
+example of cat and ls
+
+hardlinks	
+	file1
+	file1.hln 
+		inode number
+
+	limitations
+
+softlinks
+
+directory permissions
+	read -> directory contents
+	write -> directory files
+		file3 w
+
+	execute -> traverse
+
+umask
+	666 - regular file
+	022
+	644
+	777 - directory
+	033
+	744
+touch
+	modify
+	access
+	change
+	
