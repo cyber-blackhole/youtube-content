@@ -1,0 +1,98 @@
+
+
+C - compiler - assembly - nasm - object - ld - binary
+
+
+Assembly?
+	low level
+	microprocess	
+
+CPU info?
+	Inside CPU
+		CU
+		EU
+		Registers
+			General
+		
+General purpose registers
+		64 / 32
+	Data registers
+		RAX/EAX	Extended Accumulation register
+		RBX/EBX	Extended Base register
+		RCX/ECX	Extended Control register
+		RDX/EDX Extended Data register
+	Index registers	
+		RSI/ESI Extended Source index
+		RDI/EDI Extended Destination index
+	Pointer registers
+		RSP/ESP Extended Stack Pointer
+		RBP/EBP Extended Base Pointer
+		R8-R15
+	
+MISC Register
+		RIP/EIP Extended Instruction Pointer
+
+
+32 bit Register LAyout
+32					  0
+| 0000 0001 0010 0011 0100 0101 0110 0111 | ------> EAX
+
+|                   | 0100 0101 0110 0111 | ------> AX
+
+|                             | 0110 0111 | ------> AL
+
+|                 | 0100 0101 |           | ------> AH
+
+64 bit register layout
+
+| 0000 0001 0010 0011 0100 0101 0110 0111  0000 0001 0010 0011 0100 0101 0110 0111 | ------> RAX
+					 | 0000 0001 0010 0011 0100 0101 0110 0111 | ------> EAX
+
+					 |                   | 0100 0101 0110 0111 | ------> AX
+
+					 |                             | 0110 0111 | ------> AL
+
+					 |                 | 0100 0101 |           | ------> AH
+
+
+
+
+assmebly sections
+	.text
+	.data
+	.bss
+	
+
+systemcalls
+	interface user and kernel
+
+syscall - 1
+arguments  - 3
+registers
+	rax, 1
+	rdi, 1 
+	rsi, msg
+	rdx, len
+
+passing arguments in x64
+	rax - syscall number
+	rdi - 1st
+	rsi - 2nd
+	rdx - 3rd
+	rcx - 4th
+
+passing arguments in x32
+        int 0x80
+        eax, 4
+        ebx, 1
+        ecx, msg
+        edx, len
+
+Datatypes
+	byte 8
+	word 16
+	double word 32
+	quad word 64
+	double quad word 128
+
+
