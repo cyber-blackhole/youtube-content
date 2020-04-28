@@ -1,0 +1,35 @@
+find command
+	find [path] ![selection_Criteria] [action]
+
+
+finding files and directories
+	name
+		-name
+	case insensitive
+		-iname
+	direcotries
+		-type d f
+
+
+find permissions 
+	-perm number
+	! 
+	-perm /(ugo)=permission
+
+find users and groups
+	-user
+	-group
+
+find size
+	-size +10[cwbkMG]
+
+find based on time
+	access -atime
+	modified -mtime
+	change -ctime
+
+
+action
+	-exec command {} \;
+
+
