@@ -1,0 +1,22 @@
+Filters part 1
+
+od	
+
+wc
+
+pr
+
+diff
+
+comm
+
+cut
+
+paste
+
+sort
+
+tr
+
+uniq
+
