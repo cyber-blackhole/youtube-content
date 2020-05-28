@@ -1,0 +1,19 @@
+GREP,egrep,pgrep,fgrep
+
+
+grep
+g global search
+re regex and
+p  print out
+
+input > grep -> patterns -> line 
+
+grep
+
+	grep [options] pattern [file] 
+
+	meta characters - doesnot interpret
+	+ ? { ( 
+extended
+egrep
+	meta characters
