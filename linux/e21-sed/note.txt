@@ -1,0 +1,31 @@
+Stream Editor - (sed command)
+
+syntax
+
+sed options 'address action' file
+
+addressing
+	line based 1,2,3,
+	context based	//
+	
+actions
+	p
+	w
+	
+Actual Editor
+	insert i
+	append a
+	change c
+	delete d
+	substitution
+	
+		s/old/new/
+	
+
+
+	inline edits
+	-i
+
+
+
+

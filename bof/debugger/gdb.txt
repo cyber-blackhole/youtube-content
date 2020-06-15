@@ -1,0 +1,25 @@
+GDB
+ 	DNU debugger
+	find/elimiate
+	func/ security
+		
+	gdb
+
+	immunity
+	ollydgb
+	windbg
+
+symbols
+	
+breakpoints
+	step
+	stepi
+	next
+	nexti
+
+examine
+	x/<number><format><bytes>
+
+gdbtui
+
+gdb-peda
