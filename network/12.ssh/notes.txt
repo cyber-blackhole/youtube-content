@@ -1,0 +1,68 @@
+SSH
+secure shell
+
+ubuntu server			client
+			
+
+- model
+client- server
+ssh ----------------- server
+192.168.50.5		192.168.50.4
+client			server
+
+- basic
+
+			sshd 
+40000 ------------ port 22
+		server@ipaddress
+		/bin/bash
+
+
+- authentication
+	password based
+		
+	asymmetric
+		public - private
+	
+	A 		B ..... Z
+	pub		public key
+	priv	      data X pub -> encrypt
+	encrypted data X priv -- data	
+
+	public key crypto
+
+
+server				client
+50.4				50.5
+~/.ssh/authorized		/.ssh
+				
+id_rsa.pub			id_rsa
+
+	-------------- ssh --
+		remote shell	
+
+
+- generating ssh keys
+	ssh-keygen
+
+- transferring ssh keys
+	ssh-copyb-id
+
+- syntax and options
+
+- ssh configuration(server side)
+	password auth
+	port
+	users
+	groups
+	root login
+	
+
+- ssh configuration (client side)
+	 /.ssh/config file
+	connection drops
+	aws - gcp 
+		ssh - connect
+		idle
+	ServeAliveInterval 300
+	
