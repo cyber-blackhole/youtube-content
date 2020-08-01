@@ -1,0 +1,18 @@
+privilege escalation
+
+	www-data -> cyberblackhole (Horizontal)
+	www-data/cyberblackhole -> root (Vertical)
+
+
+Episode 1
+
+a. /etc/shadow file
+	passwords - users
+	world readable -> hash read and crack it
+	world writable -> modify the password for root
+
+b. /etc/passwd file
+	world writable -> add new user with password
+			 modify root user password
+
+c. common sudo binaries abuse
