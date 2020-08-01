@@ -1,0 +1,45 @@
+bcdedit /set hypervisorlaunchtype off
+
+Dockers
+	docker handles
+		builing
+		running
+		distribute
+
+
+
+docker daemons
+	images
+	containers
+	networks
+	volumes
+
+docker engine
+	components
+		docker client
+		docker daemon
+		containerd
+		runc
+
+OCI - open container initiative
+	runc
+		create containers
+	containerd
+		life cycle
+			start ,stop
+
+
+process of creating containers
+  docker client - cli	
+	api - docker daemon 
+	containerd - new container
+	OCI bundle( runtime and image)
+	runc - creats container 
+	resources
+	containerd - lifecycle - child process
+	runc - exit
+
+images
+	
+
+

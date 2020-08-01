@@ -1,0 +1,20 @@
+STACK (function)
+	LIFO(Last In First Out)
+	
+OPERATIONS
+	PUSH -> add data
+	POP -> remove data
+	TOP -> reference
+	
+	cyber();
+	RET,EBP,localvarables
+	
+	
+	cyber(){
+	cyber2()
+	
+	}
+	
+	main(){
+	cyber()
+	}

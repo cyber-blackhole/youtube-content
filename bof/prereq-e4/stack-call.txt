@@ -1,0 +1,24 @@
+CALL instruction
+while entering into function
+	push next address on stack
+	set EIP to function's address
+after entering into function
+	save the stack frame
+		push ebp
+		move ebp,esp
+
+while leaving the function
+LEAVE instruction
+	mov	ebp,esp
+	pop	ebp
+	
+	RET => set address to EIP 
+	EIP -> RET
+STACK imagination :-D
+
+esp				
+f5e8 5e4 5e0	
+	=============================
+	 83fa f5e8	400	300
+	=============================	
+ebp		
