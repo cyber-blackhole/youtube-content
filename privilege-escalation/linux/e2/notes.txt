@@ -1,0 +1,17 @@
+About SUID
+
+
+
+Episode 2
+
+SUID Abuse
+	1. Shared Object Injection
+		strace
+		shared libraries?
+	2. Environment Variables
+		PATH
+	3. Abusing Shell features
+		bash functions<4.2
+		bash PS4 < 4.4
+	4. known exploits
+		

@@ -1,0 +1,6 @@
+downlaod mona.py
+save it to PyCommands within immunitiy debugger
+Requirements
+
+python version 2...
+make sure the path is updated to python2 
