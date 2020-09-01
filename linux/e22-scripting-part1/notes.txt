@@ -1,0 +1,151 @@
+
+
+what is shell?
+	hardware -> kernel -> shell,utilities -> user
+	interpreter
+	shell -> kernel
+	types 
+		bash
+		sh
+		csh
+		ksh
+
+CLI iniline editing
+	L U W esc+T
+
+shell script?
+	shellscript.sh +x
+	keywords
+	commands
+	functions, contorl ..
+
+about bash
+shell command
+	internal
+	external
+		type -a
+
+startup files
+	.profile /etc/profile
+	.bashrc
+	.bash_logout
+
+hello world
+	shebang
+	#!/usr/bin/env bash
+comments
+	#
+	here doc
+	<<SAMPLE
+	SAMPLE
+
+variables
+	system
+		upper case
+		env
+		printenv
+		set
+	user defined
+		lowercase
+		rules
+		_ ,alpha numbers
+		=
+		${}
+		$
+
+quotes
+	"
+	command
+	wildcard
+	variable
+	'
+	\
+	export
+	unset - delte variables
+
+user input
+	read -p -t 
+
+airthmetic operators
+	$$(( expression ))
+	+ - / % **
+
+	declare -i 
+	readonly 
+	declare -r
+	variable existance check
+	${varname?error}
+	alias
+	PS1 prompt changing
+	
+decision making
+	exit status
+	echo $?
+	test command
+		[ ]
+
+if statements
+	else
+	elif
+	nested
+
+numeric comparisions
+	gt lt ge le 
+
+string comparisions
+	= "A"="A"
+	!=
+	-z
+
+file comparisions
+	-b
+	-c 
+	-d 
+	-f 
+
+cli positional arguments
+	$0 .....
+	$#
+	$*
+	$@
+	$?
+	$!
+	exit 123
+
+case statements
+	case variable in
+	 pattern) block ;;
+	 *) block ;;
+	esac
+
+loops
+
+	for
+	in
+	(( ))
+
+	while
+	while [ expression ]	
+	do
+	..
+	done
+
+	until
+	until [  condition ]
+	do
+		....
+	done
+
+	select
+
+
+
+
+
+
+
+
+
+
+
+
