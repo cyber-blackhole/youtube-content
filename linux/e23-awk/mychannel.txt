@@ -1,0 +1,6 @@
+cyberblackhole admin 1 100
+tamilbotnet moderator 2 200
+tamilspy moderator 4 200
+tamilhacks moderator 3 300
+shadowphreak moderator 5 400
+ajay subscriber 6 0

@@ -1,0 +1,92 @@
+
+
+awk
+
+
+aho
+weinbereger
+kerninghan
+
+
+operations
+
+line by line
+fields
+comparisons
+take action
+
+awk options 'criteria {action}'
+
+uses
+reporting
+
+
+
+constructs
+loops
+
+patterns
+string matching
+relational expresssion
+
+
+built in variables
+NR - number of records
+NF - field number
+OFS - " "
+ORS - "+"
+FS " " "	"
+
+Variables
+lowercase
+
+comparisions
+strings
+	~ !~
+arthmetic
+	>,<,>=,!=
+
+datatypes
+strings
+integers
+"3"+12
+
+
+arrays
+
+
+sections
+BEGIN{}
+	{}
+END{}
+
+
+functions
+length
+substr
+
+
+control flow
+if
+	if (expression)
+	{
+
+	}
+while
+for
+
+nawk newer ENVIRON
+gawk gnu
+
+
+
+
+
+
+
+
+
+
+
+
+
