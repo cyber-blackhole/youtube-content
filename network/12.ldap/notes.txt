@@ -1,0 +1,218 @@
+
+LDAP: Light weight directory access protocol
+
+directory service
+direcotry data store
+	manage/interact = > LDAP - network
+	windows AD
+	
+linux openLDAP directory service(server)
+
+models
+information model
+	entity(person)
+	entiries(attributes)
+
+naming model
+	datastructure file
+	DIT
+	dn = distinguised name
+	ou
+	c
+	mail
+	uid
+
+functions
+
+security
+	BIND
+	anonymous
+	SASL xxxxxxxxxxx
+
+installation
+	server openldap (slapd)
+	
+interact
+	GUI
+		webbased
+		phpldapadmin(ldap)
+
+	CLI
+		ldap-utils
+		ldapsearch
+
+naming conventions
+
+
+cyber.com
+
+dn: dc=cyber, dc=com
+
+dn: ou=sales, dc=cyber, dc=com
+objectClass: organizationalUnit
+ou=sales
+
+dn: ou=it, dc=cyber, dc=com
+objectClass: organizationUnit
+ou=it
+
+dn: cn=arjun, ou=it, dc=cyber, dc=com
+objectClass: inetORgPerson
+cn: arjun sarja
+uid: asarja
+mail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LDAP utilities
+
+
+12.12.12.12
+	ldap
+
+anonymous bind
+	- anonymous
+		- bind -x
+
+	- username 
+	- username:password
+		ftp
+		ssh
+		smb
+
+DIT root directory rootDN rootEntry
+	root dn = cyber.com
+	
+
+perform the binding operation
+	binding - -D 
+
+.ldaprc
+	
+LDIF file
+	adding entires
+	syntax
+	changeType: modify
+
+
+search base
+	-b search begin
+
+search scope
+	-s scope
+		sub , return everything
+		base, only return base
+		one, first level child
+		children, excpet base
+
+filters 
+	select user,pass from users where username=admin
+	()
+	attributename=attributevalue
+	=
+	(!(uidNumber=1000))
+	<=
+	=*
+	!
+	
+	
+attributes
+	
+compound filters
+	ctf
+
+	user=admin and pass=pass
+
+	'(&(user=admin)(pass=pass))'
+
+
+ldapurl
+
+ldap://serverip:389/base?attributes?scope?filters?extensions
+
+ldap video
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

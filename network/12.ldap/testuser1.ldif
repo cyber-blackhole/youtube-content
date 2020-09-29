@@ -1,0 +1,4 @@
+dn: cn=testuser1,cn=testers,ou=it,dc=cyber,dc=com
+objectClass: inetOrgPerson
+cn: testuser1
+sn: lastname

@@ -1,0 +1,4 @@
+dn: cn=testers,ou=it,dc=cyber,dc=com
+objectClass: posixGroup
+cn: testers
+gidNumber: 2000

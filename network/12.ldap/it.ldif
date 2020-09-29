@@ -1,0 +1,3 @@
+dn: ou=it,dc=cyber,dc=com
+objectClass: organizationalUnit
+ou: it

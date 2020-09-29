@@ -1,0 +1,5 @@
+dn: cn=developer1,cn=developers,ou=it,dc=cyber,dc=com
+changeType: delete
+objectClass: inetOrgPerson
+cn: developer1
+sn: lastname
