@@ -1,0 +1,90 @@
+ 1788  sudo apt install ldap-utils
+ 1790  sudo apt install phpldapadmin 
+ 1792  sudo apt install phpldapadmin 
+ 1794  sudo apt install phpldapadmin 
+ 1796  sudo vim /etc/phpldapadmin/config.php 
+ 1799  sudo vim /etc/phpldapadmin/config.php 
+ 1801  sudo vim /etc/phpldapadmin/config.php 
+ 1803  sudo vim /etc/phpldapadmin/config.php 
+ 1806  ldapsearch -x
+ 1808  sudo vim /etc/phpldapadmin/config.php 
+ 1811  sudo vim /etc/phpldapadmin/config.php 
+ 1818  sudo vim /etc/phpldapadmin/config.php 
+ 1820  sudo vim /usr/share/phpldapadmin/lib/functions.php 
+ 1822  sudo vim /usr/share/phpldapadmin/lib/functions.php 
+ 1824  cd /usr/share/phpldapadmin/lib/
+ 1825  wget https://raw.githubusercontent.com/probsJustin/phpldapadmin_functions/master/functions.php
+ 1828  sudo wget https://raw.githubusercontent.com/probsJustin/phpldapadmin_functions/master/functions.php
+ 1831  sudo vim /etc/phpldapadmin/config.php 
+ 1833  ls -la /usr/share/phpldapadmin/lib/
+ 1834  ls -la /usr/share/phpldapadmin/lib/functions.php 
+ 1840  cd git/github/youtube-content/network/13.ldap/
+ 1846  ldapmodify -H ldap://cyberblackhole.com -D "cn=admin, dc=cyberblackhole, dc=com" -w password -f ./modify.ldif 
+ 1848  ldapsearch -x -H ldap://cyberblackhole.com 
+ 1849  ldapsearch -H ldap://cyberblackhole.com -D "cn=admin,dc=cyberblackhole,dc=com" -w password 
+ 1850  ldapsearch -H ldap://cyberblackhole.com -x -s base -b "" namingContexts
+ 1862  mkdir 13.ldap
+ 1863  cd 13.ldap/
+ 1865  tmux new -s ldap
+ 1867  tmux new -s ldap
+ 1875  ldapmodify -H ldap://cyberblackhole.com -D "cn=admin, dc=cyberblackhole, dc=com" -w password -f ./delete.ldif 
+ 1878  ldapmodify -H ldap://cyberblackhole.com -D "cn=admin, dc=cyberblackhole, dc=com" -w password -f ./delete.ldif 
+ 1880  ldapmodify -H ldap://cyberblackhole.com -D "cn=admin, dc=cyberblackhole, dc=com" -w password -f ./delete.ldif 
+ 1882  ldapmodify -H ldap://cyberblackhole.com -D "cn=admin, dc=cyberblackhole, dc=com" -w password -f ./delete.ldif 
+ 1892  sudo vim /etc/phpldapadmin/config.php 
+ 1898  cd git/github/youtube-content/network/13.ldap/
+ 1905  tmux new -s ldap
+ 1909  ldapsearch --help
+ 1911  ldapsearch -H ldap://cyber.com
+ 1913  ldapsearch -x -H ldap://cyber.com
+ 1914  ldapsearch -x -H ldap://cyber.com -b "cn=admin,dc=cyber,dc=com" -w password
+ 1915  ldapsearch -x -H ldap://admin.cyber.com -b "cn=admin,dc=cyber,dc=com" -w password
+ 1917  ldapsearch -x -H ldap://cyber.com -D "cn=admin,dc=cyber,dc=com" -w password
+ 1918  ldapsearch -H ldap://cyber.com -x -s base -b "" namingContexts
+ 1920  grep namingcontexts /usr/share/nmap/scripts/ldap-*
+ 1921  grep -i namingcontexts /usr/share/nmap/scripts/ldap-*
+ 1923  ldapsearch -H ldap://cyber.com -x -s base -b "" namingContexts
+ 1924  ldapsearch -H ldap://cyber.com -x -s base -b "dc=cyber,dc=com" "(objectClass=simpleSecurityObject)"
+ 1925  ldapsearch -H ldap://cyber.com -x -s base -b "dc=cyber,dc=com" "(objectClass=simpleSecurityObject)" dn
+ 1926  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" "(objectClass=simpleSecurityObject)"
+ 1928  cat ~/.ldaprc
+ 1929  cat > ~/.ldaprc
+ 1931  cat ~/.ldaprc 
+ 1932  ldapsearch -x -w password
+ 1933  sed -i 's/BINDN/BINDDN/' ~/.ldaprc 
+ 1934  cat ~/.ldaprc 
+ 1935  ldapsearch -x -w password
+ 1938  ldapadd -x -w password -f it.ldif 
+ 1942  ldapadd -x -w password -f developer.ldif 
+ 1944  ldapadd -x -w password -f developer.ldif 
+ 1950  ldapadd -x -w password -f testers.ldif 
+ 1956  ldapadd -x -w password -f testuser1.ldif 
+ 1958  ldapadd -x -w password -f testuser1.ldif 
+ 1960  ldapadd -x -w password -f developer1.ldif 
+ 1963  ldapsearch -H ldap://cyber.com -x -s sub -b "dc=cyber,dc=com"
+ 1964  ldapsearch -H ldap://cyber.com -x -s sub -b "dc=cyber,dc=com" -LLL
+ 1965  ldapsearch -H ldap://cyber.com -x -s base -b "dc=cyber,dc=com" -LLL
+ 1966  ldapsearch -H ldap://cyber.com -x -s base -b "ou=it,dc=cyber,dc=com" -LLL
+ 1967  ldapsearch -H ldap://cyber.com -x -s one -b "ou=it,dc=cyber,dc=com" -LLL
+ 1968  ldapsearch -H ldap://cyber.com -x -s children -b "ou=it,dc=cyber,dc=com" -LLL
+ 1969  ldapsearch -H ldap://cyber.com -x -b "ou=it,dc=cyber,dc=com" -LLL
+ 1971  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(uid=1000)'
+ 1972  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(uidNumber=1000)'
+ 1973  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL ''
+ 1974  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(uidNumber=1000)'
+ 1975  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(sn=lastname)'
+ 1976  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(cn=developer1)'
+ 1977  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(sn=*)'
+ 1978  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(sn=*)' objectClass
+ 1979  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(sn=*)' sn
+ 1980  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL 
+ 1981  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(sn=*)'
+ 1983  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(uidNumber=1000)'
+ 1984  ldapsearch -H ldap://cyber.com -x -b "dc=cyber,dc=com" -LLL '(&(uidNumber=1000)(givenName=arjun))'
+ 1986  ldapurl -H 'ldap://cyber.com:389/dc=cyber,dc=com?dn?sub?(ou=it)'
+ 1989  git commit -m 'ldap complete'
+ 1991  cd git/github/youtube-content/network/13.ldap/
+ 1996  mv 13.ldap/ 12.ldap
+ 1998  cd 12.ldap/
+ 2000  tmux new -s ldap
+ 2008  more ldapcommands.txt 
