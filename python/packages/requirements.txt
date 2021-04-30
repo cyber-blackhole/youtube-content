@@ -17,4 +17,4 @@ pyxdg==0.25
 requests==2.22.0
 SecretStorage==2.3.1
 six==1.11.0
-urllib3==1.25.6
+urllib3==1.25.8
