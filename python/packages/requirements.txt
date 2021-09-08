@@ -7,7 +7,7 @@ idna==2.8
 ipaddress==1.0.17
 keyring==10.6.0
 keyrings.alt==3.0
-Pillow==6.2.0
+Pillow==8.3.2
 psutil==5.4.2
 pycairo==1.16.2
 pycrypto==2.6.1
